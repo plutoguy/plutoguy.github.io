@@ -1,113 +1,709 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <link rel="StyleSheet" href="styles.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.halo.min.js"></script>
+        <meta charSet="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="/_next/static/css/582c69fad58130fb.css" data-precedence="next"/>
+        <link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack-db0a529a99835594.js"/>
+        <script src="/_next/static/chunks/4bd1b696-bb8c896da149441d.js" async=""></script>
+        <script src="/_next/static/chunks/684-84b905d41e2aa4cb.js" async=""></script>
+        <script src="/_next/static/chunks/main-app-c9779a9cf3f89b5e.js" async=""></script>
+        <script src="/_next/static/chunks/353-a6781ffe5ecb91a9.js" async=""></script>
+        <script src="/_next/static/chunks/app/page-dc47a320f4cc6655.js" async=""></script>
+        <title>v0 App</title>
+        <meta name="description" content="Created with v0"/>
+        <meta name="generator" content="v0.dev"/>
+        <script src="/_next/static/chunks/polyfills-42372ed130431b0a.js" noModule=""></script>
     </head>
     <body>
-        <div class="background">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        <div id="header">
-            <button class="headerbutton" style="margin-right: 20px; background-color: #0c2c97; " onclick='window.open("https://dsc.gg/plutora")'>Discord</button>
-            <button class="headerbutton" onclick='window.open("https://wearedevs.net/d/Plutora")' style="margin-right: 20px; color: rgba(255, 255, 255, 1); box-shadow: 0 5px 15px rgba(10, 55, 255, 0.7);">Download</button>
-            <img class="headerlogo" src="PlutoGradient.png" width="40px">
-        </div>
-        <section>
-            <h1 class="moto">Experience Execution With Glow</h1>
-            <div id="maincontainer">
-                <button onclick='window.open("https://wearedevs.net/d/Plutora")' class="mainbutton">Download</button>
-                <button class="mainbuttondiscord" onclick='window.open("https://dsc.gg/plutora")'>Discord</button>
-            </div>
-            <div id="featurescontainer">
-                <div class="featureschild">
-                    <div style="display: flex; justify-content: center; margin-top:20px;">
-                        <svg width="80" style="fill: white; position:absolute ; display:block ; margin:auto ;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5">
-                            <path fill-rule="evenodd" d="M3.25 3A2.25 2.25 0 0 0 1 5.25v9.5A2.25 2.25 0 0 0 3.25 17h13.5A2.25 2.25 0 0 0 19 14.75v-9.5A2.25 2.25 0 0 0 16.75 3H3.25Zm.943 8.752a.75.75 0 0 1 .055-1.06L6.128 9l-1.88-1.693a.75.75 0 1 1 1.004-1.114l2.5 2.25a.75.75 0 0 1 0 1.114l-2.5 2.25a.75.75 0 0 1-1.06-.055ZM9.75 10.25a.75.75 0 0 0 0 1.5h2.5a.75.75 0 0 0 0-1.5h-2.5Z" clip-rule="evenodd" />
-                        </svg>                      
-                        <h1 style="margin-top:120px ;">Powerful Execution</h1>
-                    </div>
-                </div>
-                <div class="featureschild">
-                    <div style="display: flex; justify-content: center; margin-top:20px;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="80" style="fill: white; position:absolute ; display:block ; margin:auto ;" viewBox="0 0 20 20" fill="currentColor" class="size-5">
-                            <path fill-rule="evenodd" d="M4.25 2A2.25 2.25 0 0 0 2 4.25v11.5A2.25 2.25 0 0 0 4.25 18h11.5A2.25 2.25 0 0 0 18 15.75V4.25A2.25 2.25 0 0 0 15.75 2H4.25ZM3.5 8v7.75c0 .414.336.75.75.75h11.5a.75.75 0 0 0 .75-.75V8h-13ZM5 4.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V5a.75.75 0 0 0-.75-.75H5ZM7.25 5A.75.75 0 0 1 8 4.25h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H8a.75.75 0 0 1-.75-.75V5ZM11 4.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V5a.75.75 0 0 0-.75-.75H11Z" clip-rule="evenodd" />
-                        </svg>                                          
-                        <h1 style="margin-top:120px ;">Flawless UI</h1>
-                    </div>
-                </div>
-                <div class="featureschild">
-                    <div style="display: flex; justify-content: center; margin-top:20px;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="80" style="fill: white; position:absolute ; display:block ; margin:auto ;" viewBox="0 0 20 20" fill="currentColor" class="size-5">
-                            <path fill-rule="evenodd" d="M10.75 10.818v2.614A3.13 3.13 0 0 0 11.888 13c.482-.315.612-.648.612-.875 0-.227-.13-.56-.612-.875a3.13 3.13 0 0 0-1.138-.432ZM8.33 8.62c.053.055.115.11.184.164.208.16.46.284.736.363V6.603a2.45 2.45 0 0 0-.35.13c-.14.065-.27.143-.386.233-.377.292-.514.627-.514.909 0 .184.058.39.202.592.037.051.08.102.128.152Z" /> <path fill-rule="evenodd" d="M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0Zm-8-6a.75.75 0 0 1 .75.75v.316a3.78 3.78 0 0 1 1.653.713c.426.33.744.74.925 1.2a.75.75 0 0 1-1.395.55 1.35 1.35 0 0 0-.447-.563 2.187 2.187 0 0 0-.736-.363V9.3c.698.093 1.383.32 1.959.696.787.514 1.29 1.27 1.29 2.13 0 .86-.504 1.616-1.29 2.13-.576.377-1.261.603-1.96.696v.299a.75.75 0 1 1-1.5 0v-.3c-.697-.092-1.382-.318-1.958-.695-.482-.315-.857-.717-1.078-1.188a.75.75 0 1 1 1.359-.636c.08.173.245.376.54.569.313.205.706.353 1.138.432v-2.748a3.782 3.782 0 0 1-1.653-.713C6.9 9.433 6.5 8.681 6.5 7.875c0-.805.4-1.558 1.097-2.096a3.78 3.78 0 0 1 1.653-.713V4.75A.75.75 0 0 1 10 4Z" clip-rule="evenodd" />
-                        </svg>                                          
-                        <h1 style="margin-top:120px ;">No Key</h1>
-                    </div>
-                </div>
-                <div class="featureschild">
-                    <div style="display: flex; justify-content: center; margin-top:20px;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="80" style="fill: white; position:absolute ; display:block ; margin:auto ;" viewBox="0 0 20 20" fill="currentColor" class="size-5">
-                            <path fill-rule="evenodd" d="M1 12.5A4.5 4.5 0 0 0 5.5 17H15a4 4 0 0 0 1.866-7.539 3.504 3.504 0 0 0-4.504-4.272A4.5 4.5 0 0 0 4.06 8.235 4.502 4.502 0 0 0 1 12.5Z" clip-rule="evenodd" />
-                        </svg>                                          
-                        <h1 style="margin-top:120px ;">Script Hub</h1>
-                    </div>
-                </div>
-                <div class="featureschild">
-                    <div style="display: flex; justify-content: center; margin-top:20px;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="80" style="fill: white; position:absolute ; display:block ; margin:auto ;" viewBox="0 0 20 20" fill="currentColor" class="size-5">
-                            <path fill-rule="evenodd" d="M.99 5.24A2.25 2.25 0 0 1 3.25 3h13.5A2.25 2.25 0 0 1 19 5.25l.01 9.5A2.25 2.25 0 0 1 16.76 17H3.26A2.267 2.267 0 0 1 1 14.74l-.01-9.5Zm8.26 9.52v-.625a.75.75 0 0 0-.75-.75H3.25a.75.75 0 0 0-.75.75v.615c0 .414.336.75.75.75h5.373a.75.75 0 0 0 .627-.74Zm1.5 0a.75.75 0 0 0 .627.74h5.373a.75.75 0 0 0 .75-.75v-.615a.75.75 0 0 0-.75-.75H11.5a.75.75 0 0 0-.75.75v.625Zm6.75-3.63v-.625a.75.75 0 0 0-.75-.75H11.5a.75.75 0 0 0-.75.75v.625c0 .414.336.75.75.75h5.25a.75.75 0 0 0 .75-.75Zm-8.25 0v-.625a.75.75 0 0 0-.75-.75H3.25a.75.75 0 0 0-.75.75v.625c0 .414.336.75.75.75H8.5a.75.75 0 0 0 .75-.75ZM17.5 7.5v-.625a.75.75 0 0 0-.75-.75H11.5a.75.75 0 0 0-.75.75V7.5c0 .414.336.75.75.75h5.25a.75.75 0 0 0 .75-.75Zm-8.25 0v-.625a.75.75 0 0 0-.75-.75H3.25a.75.75 0 0 0-.75.75V7.5c0 .414.336.75.75.75H8.5a.75.75 0 0 0 .75-.75Z" clip-rule="evenodd" />
-                        </svg>                                          
-                        <h1 style="margin-top:120px ;">Tab System</h1>
-                    </div>
-                </div>
-                <div class="featureschild">
-                    <div style="display: flex; justify-content: center; margin-top:20px;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="80" style="fill: white; position:absolute ; display:block ; margin:auto ;" viewBox="0 0 20 20" fill="currentColor" class="size-5">
-                            <path fill-rule="evenodd" d="M4.5 2A1.5 1.5 0 0 0 3 3.5v13A1.5 1.5 0 0 0 4.5 18h11a1.5 1.5 0 0 0 1.5-1.5V7.621a1.5 1.5 0 0 0-.44-1.06l-4.12-4.122A1.5 1.5 0 0 0 11.378 2H4.5Zm2.25 8.5a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Zm0 3a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Z" clip-rule="evenodd" />
-                        </svg>                                          
-                        <h1 style="margin-top:120px ;">Monaco Editor</h1>
-                    </div>
-                </div>
-                <div class="featureschild">
-                    <div style="display: flex; justify-content: center; margin-top:20px;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="80" style="fill: white; position:absolute ; display:block ; margin:auto ;" viewBox="0 0 20 20" fill="currentColor" class="size-5">
-                            <path fill-rule="evenodd" d="M10 1a4.5 4.5 0 0 0-4.5 4.5V9H5a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6a2 2 0 0 0-2-2h-.5V5.5A4.5 4.5 0 0 0 10 1Zm3 8V5.5a3 3 0 1 0-6 0V9h6Z" clip-rule="evenodd" />
-                        </svg>                                          
-                        <h1 style="margin-top:120px ;">Secure</h1>
-                    </div>
-                </div>
-                <div class="featureschild">
-                    <div style="display: flex; justify-content: center; margin-top:20px;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="80" style="fill: white; position:absolute ; display:block ; margin:auto ;" viewBox="0 0 20 20" fill="currentColor" class="size-5">
-                            <path fill-rule="evenodd" d="M10.362 1.093a.75.75 0 0 0-.724 0L2.523 5.018 10 9.143l7.477-4.125-7.115-3.925ZM18 6.443l-7.25 4v8.25l6.862-3.786A.75.75 0 0 0 18 14.25V6.443ZM9.25 18.693v-8.25l-7.25-4v7.807a.75.75 0 0 0 .388.657l6.862 3.786Z" clip-rule="evenodd" />
-                        </svg>                                          
-                        <h1 style="margin-top:120px ;">Multi API</h1>
-                    </div>
+        <div class="min-h-screen bg-slate-950 text-white overflow-hidden">
+            <div class="fixed inset-0 opacity-30">
+                <div class="absolute inset-0 bg-gradient-to-br from-blue-900/20 via-purple-900/20 to-teal-900/20"></div>
+                <div class="absolute top-0 left-0 w-full h-full">
+                    <div class="aurora-1"></div>
+                    <div class="aurora-2"></div>
+                    <div class="aurora-3"></div>
+                    <div class="aurora-4"></div>
+                    <div class="aurora-5"></div>
                 </div>
             </div>
-        </section>
+            <header class="fixed top-0 left-0 right-0 z-50 p-4">
+                <nav class="max-w-7xl mx-auto">
+                    <div class="bg-slate-900/20 backdrop-blur-xl border border-white/10 rounded-2xl px-4 sm:px-6 py-3 sm:py-4 shadow-2xl">
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center space-x-2 sm:space-x-3 flex-shrink-0 pop-in">
+                                <div class="w-8 h-8 sm:w-10 sm:h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center shadow-lg relative overflow-hidden plutora-icon pop-in stagger-1">
+                                    <div class="absolute inset-0 opacity-60">
+                                        <div class="icon-aurora-1"></div>
+                                        <div class="icon-aurora-2"></div>
+                                        <div class="icon-aurora-3"></div>
+                                    </div>
+                                    <span class="text-white font-bold text-sm sm:text-lg relative z-10">P</span>
+                                </div>
+                                <div class="text-xl sm:text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent pop-in stagger-2">Plutora</div>
+                                <div class="hidden sm:block px-2 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-full border border-blue-400/30 pop-in stagger-3">
+                                    <span class="text-xs font-medium text-blue-300">v2.0</span>
+                                </div>
+                            </div>
+                            <div class="hidden lg:flex items-center justify-center flex-1 mx-8">
+                                <div class="flex items-center space-x-1">
+                                    <a href="#features" class="nav-link px-4 py-2 rounded-xl text-slate-300 hover:text-white hover:bg-white/10 transition-all duration-300 relative overflow-hidden group">
+                                        <span class="relative z-10">Features</span>
+                                        <div class="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                                    </a>
+                                    <a href="#comparison" class="nav-link px-4 py-2 rounded-xl text-slate-300 hover:text-white hover:bg-white/10 transition-all duration-300 relative overflow-hidden group">
+                                        <span class="relative z-10">Compare</span>
+                                        <div class="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                                    </a>
+                                    <a href="#faq" class="nav-link px-4 py-2 rounded-xl text-slate-300 hover:text-white hover:bg-white/10 transition-all duration-300 relative overflow-hidden group">
+                                        <span class="relative z-10">FAQ</span>
+                                        <div class="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-2 sm:space-x-3 flex-shrink-0">
+                                <a href="https://plutora.xyz/discord" target="_blank" rel="noopener noreferrer" class="hidden sm:flex items-center px-3 sm:px-4 py-2 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 text-sm font-medium discord-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle mr-1 sm:mr-2 h-4 w-4">
+                                        <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path>
+                                    </svg>
+                                    <span class="hidden md:inline">Discord</span>
+                                </a>
+                                <a href="https://wearedevs.net/d/Plutora" target="_blank" rel="noopener noreferrer" class="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-3 sm:px-6 py-2 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border-0 download-btn text-sm flex items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-download mr-1 sm:mr-2 h-4 w-4">
+                                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                        <polyline points="7 10 12 15 17 10"></polyline>
+                                        <line x1="12" x2="12" y1="15" y2="3"></line>
+                                    </svg>
+                                    <span class="hidden xs:inline sm:hidden md:inline">Download</span>
+                                    <span class="xs:hidden sm:inline md:hidden">Get</span>
+                                </a>
+                                <button class="lg:hidden p-2 rounded-xl bg-white/10 hover:bg-white/20 transition-colors duration-300 touch-manipulation" aria-label="Toggle mobile menu">
+                                    <div class="w-5 h-5 sm:w-6 sm:h-6 flex flex-col justify-center items-center space-y-1">
+                                        <div class="w-3 sm:w-4 h-0.5 bg-white rounded-full transition-all duration-300 "></div>
+                                        <div class="w-3 sm:w-4 h-0.5 bg-white rounded-full transition-all duration-300 "></div>
+                                        <div class="w-3 sm:w-4 h-0.5 bg-white rounded-full transition-all duration-300 "></div>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <div class="lg:hidden absolute top-full left-4 right-4 mt-2 bg-slate-900/95 backdrop-blur-xl border border-white/10 rounded-2xl shadow-2xl overflow-hidden transition-all duration-300 opacity-0 invisible transform -translate-y-4">
+                    <div class="p-4 space-y-3">
+                        <a href="#features" class="block px-4 py-3 rounded-xl text-slate-300 hover:text-white hover:bg-white/10 transition-all duration-300 touch-manipulation">Features</a>
+                        <a href="#comparison" class="block px-4 py-3 rounded-xl text-slate-300 hover:text-white hover:bg-white/10 transition-all duration-300 touch-manipulation">Compare</a>
+                        <a href="#faq" class="block px-4 py-3 rounded-xl text-slate-300 hover:text-white hover:bg-white/10 transition-all duration-300 touch-manipulation">FAQ</a>
+                        <div class="border-t border-slate-700/50 pt-3">
+                            <a href="https://plutora.xyz/discord" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center px-4 py-3 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white rounded-xl shadow-lg transition-all duration-300 discord-btn touch-manipulation">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle mr-2 h-4 w-4">
+                                    <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path>
+                                </svg>
+                                Join Discord
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <section class="relative z-10 pt-32 pb-20 px-6">
+                <div class="max-w-7xl mx-auto">
+                    <div class="grid lg:grid-cols-2 gap-12 items-center">
+                        <div class="relative slide-right">
+                            <div class="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm rounded-2xl p-6 border border-blue-500/20">
+                                <div class="bg-slate-900/80 rounded-lg overflow-hidden">
+                                    <div class="flex items-center justify-between px-4 py-3 bg-slate-800/60 border-b border-slate-700/50">
+                                        <div class="flex items-center gap-2">
+                                            <div class="w-3 h-3 bg-red-500 rounded-full"></div>
+                                            <div class="w-3 h-3 bg-yellow-500 rounded-full"></div>
+                                            <div class="w-3 h-3 bg-green-500 rounded-full"></div>
+                                        </div>
+                                        <span class="text-sm text-slate-400 font-medium">Plutora Script Editor</span>
+                                        <div class="w-16"></div>
+                                    </div>
+                                    <div class="flex bg-slate-800/40 border-b border-slate-700/50">
+                                        <div class="flex items-center px-4 py-2 bg-slate-700/50 border-r border-slate-600/50 text-blue-400 text-sm font-medium">
+                                            <span>script.lua</span>
+                                        </div>
+                                        <div class="flex items-center px-4 py-2 border-r border-slate-600/30 text-slate-500 text-sm hover:text-slate-300 cursor-pointer">
+                                            <span>autoexec.lua</span>
+                                        </div>
+                                        <div class="flex items-center px-4 py-2 border-r border-slate-600/30 text-slate-500 text-sm hover:text-slate-300 cursor-pointer">
+                                            <span>config.lua</span>
+                                        </div>
+                                        <div class="flex-1"></div>
+                                    </div>
+                                    <div class="p-4 bg-slate-900/60">
+                                        <div class="space-y-2 font-mono text-sm">
+                                            <div class="text-slate-500">-- Plutora Script Example</div>
+                                            <div class="text-purple-400">local player = game.Players.LocalPlayer</div>
+                                            <div class="text-purple-400">local character = player.Character</div>
+                                            <div class="text-white"></div>
+                                            <div class="text-slate-500">-- Speed and Jump modifications</div>
+                                            <div class="text-white">
+                                                character.Humanoid.WalkSpeed = <span class="text-orange-400">50</span>
+                                            </div>
+                                            <div class="text-white">
+                                                character.Humanoid.JumpPower = <span class="text-orange-400">100</span>
+                                            </div>
+                                            <div class="text-white"></div>
+                                            <div class="text-blue-400">
+                                                print<span class="text-white">(</span>
+                                                <span class="text-green-400">&quot;Script executed successfully!&quot;</span>
+                                                <span class="text-white">)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex gap-3 mt-4">
+                                    <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 text-primary-foreground h-9 rounded-md px-3 bg-blue-600 hover:bg-blue-700 flex-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap mr-2 h-4 w-4">
+                                            <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>
+                                        </svg>
+                                        Execute
+                                    </button>
+                                    <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border bg-background hover:text-accent-foreground h-9 rounded-md px-3 border-slate-600 text-slate-300 hover:bg-slate-700">Clear</button>
+                                    <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border bg-background hover:text-accent-foreground h-9 rounded-md px-3 border-slate-600 text-slate-300 hover:bg-slate-700">Save</button>
+                                </div>
+                            </div>
+                            <div class="absolute -inset-4 bg-gradient-to-r from-blue-600/20 to-purple-600/20 rounded-3xl blur-xl"></div>
+                        </div>
+                        <div class="space-y-8 slide-left">
+                            <div>
+                                <h1 class="text-4xl sm:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent animated-header">Plutora v2</h1>
+                                <p class="text-lg sm:text-xl text-slate-300 leading-relaxed mb-6">The most advanced Roblox executor with Level 8 execution capabilities. Experience unparalleled performance, stability, and an intuitive interface designed for both beginners and advanced users.</p>
+                                <div class="flex flex-wrap gap-4 sm:gap-6 mb-8">
+                                    <div class="flex items-center space-x-2 px-3 sm:px-4 py-2 bg-slate-800/30 rounded-xl border border-slate-700/50 pop-in stagger-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users h-4 sm:h-5 w-4 sm:w-5 text-blue-400">
+                                            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                                            <circle cx="9" cy="7" r="4"></circle>
+                                            <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                        </svg>
+                                        <span class="text-white font-semibold text-sm sm:text-base">10,000+</span>
+                                        <span class="text-slate-400 text-sm sm:text-base">Downloads</span>
+                                    </div>
+                                    <div class="flex items-center space-x-2 px-3 sm:px-4 py-2 bg-slate-800/30 rounded-xl border border-slate-700/50 pop-in stagger-2">
+                                        <div class="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
+                                        <span class="text-white font-semibold text-sm sm:text-base">100%</span>
+                                        <span class="text-slate-400 text-sm sm:text-base">Working</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="space-y-4 fade-in stagger-3">
+                                <div class="flex flex-col sm:flex-row gap-4 fade-in stagger-3">
+                                    <a href="https://wearedevs.net/d/Plutora" target="_blank" rel="noopener noreferrer" class="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 download-btn flex items-center justify-center touch-manipulation">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-download mr-2 h-4 sm:h-5 w-4 sm:w-5">
+                                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                            <polyline points="7 10 12 15 17 10"></polyline>
+                                            <line x1="12" x2="12" y1="15" y2="3"></line>
+                                        </svg>
+                                        Download for Windows
+                                    </a>
+                                    <a href="https://plutora.xyz/discord" target="_blank" rel="noopener noreferrer" class="border-2 border-purple-500/50 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white hover:border-purple-400 px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center discord-btn touch-manipulation">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle mr-2 h-4 sm:h-5 w-4 sm:w-5">
+                                            <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path>
+                                        </svg>
+                                        Join Discord
+                                    </a>
+                                </div>
+                                <p class="text-sm text-slate-400 text-center sm:text-left">Free • No Key Required • Instant Access</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="features" class="relative z-10 py-20 px-6">
+                <div class="max-w-7xl mx-auto">
+                    <div class="text-center mb-16 slide-up">
+                        <h2 class="text-3xl sm:text-4xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent animated-header">Powerful Features</h2>
+                        <p class="text-lg sm:text-xl text-slate-300">Everything you need for the perfect scripting experience</p>
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
+                        <div class="pop-in stagger-1">
+                            <div class="rounded-lg border text-card-foreground shadow-sm feature-card bg-slate-800/30 border-slate-700/50 backdrop-blur-sm cursor-pointer overflow-hidden relative transition-all duration-300 ease-out min-h-[200px] h-full" style="transform-style:preserve-3d">
+                                <div class="absolute inset-0 bg-gradient-to-br from-blue-500/10 via-purple-500/10 to-cyan-500/10 transition-opacity duration-300 pointer-events-none opacity-0"></div>
+                                <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent transition-transform duration-700 pointer-events-none -translate-x-full"></div>
+                                <div class="feature-card-content p-6 text-center relative z-10 h-full flex flex-col justify-center">
+                                    <div class="mb-4 flex justify-center">
+                                        <div class="p-3 bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-xl transition-all duration-300" style="transform:scale(1)">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap h-8 w-8 text-blue-400">
+                                                <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <h3 class="text-lg font-semibold mb-3 text-white transition-all duration-300 leading-tight">Level 8 Execution</h3>
+                                    <p class="text-sm text-slate-400 leading-relaxed transition-all duration-300 flex-grow">Execute the most advanced scripts with our powerful Level 8 execution engine, handling complex operations seamlessly.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pop-in stagger-2">
+                            <div class="rounded-lg border text-card-foreground shadow-sm feature-card bg-slate-800/30 border-slate-700/50 backdrop-blur-sm cursor-pointer overflow-hidden relative transition-all duration-300 ease-out min-h-[200px] h-full" style="transform-style:preserve-3d">
+                                <div class="absolute inset-0 bg-gradient-to-br from-blue-500/10 via-purple-500/10 to-cyan-500/10 transition-opacity duration-300 pointer-events-none opacity-0"></div>
+                                <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent transition-transform duration-700 pointer-events-none -translate-x-full"></div>
+                                <div class="feature-card-content p-6 text-center relative z-10 h-full flex flex-col justify-center">
+                                    <div class="mb-4 flex justify-center">
+                                        <div class="p-3 bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-xl transition-all duration-300" style="transform:scale(1)">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-palette h-8 w-8 text-blue-400">
+                                                <circle cx="13.5" cy="6.5" r=".5" fill="currentColor"></circle>
+                                                <circle cx="17.5" cy="10.5" r=".5" fill="currentColor"></circle>
+                                                <circle cx="8.5" cy="7.5" r=".5" fill="currentColor"></circle>
+                                                <circle cx="6.5" cy="12.5" r=".5" fill="currentColor"></circle>
+                                                <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <h3 class="text-lg font-semibold mb-3 text-white transition-all duration-300 leading-tight">Attractive Interface</h3>
+                                    <p class="text-sm text-slate-400 leading-relaxed transition-all duration-300 flex-grow">Beautiful, intuitive design that makes scripting enjoyable with a clean and modern user interface.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pop-in stagger-3">
+                            <div class="rounded-lg border text-card-foreground shadow-sm feature-card bg-slate-800/30 border-slate-700/50 backdrop-blur-sm cursor-pointer overflow-hidden relative transition-all duration-300 ease-out min-h-[200px] h-full" style="transform-style:preserve-3d">
+                                <div class="absolute inset-0 bg-gradient-to-br from-blue-500/10 via-purple-500/10 to-cyan-500/10 transition-opacity duration-300 pointer-events-none opacity-0"></div>
+                                <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent transition-transform duration-700 pointer-events-none -translate-x-full"></div>
+                                <div class="feature-card-content p-6 text-center relative z-10 h-full flex flex-col justify-center">
+                                    <div class="mb-4 flex justify-center">
+                                        <div class="p-3 bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-xl transition-all duration-300" style="transform:scale(1)">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-key h-8 w-8 text-blue-400">
+                                                <path d="m15.5 7.5 2.3 2.3a1 1 0 0 0 1.4 0l2.1-2.1a1 1 0 0 0 0-1.4L19 4"></path>
+                                                <path d="m21 2-9.6 9.6"></path>
+                                                <circle cx="7.5" cy="15.5" r="5.5"></circle>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <h3 class="text-lg font-semibold mb-3 text-white transition-all duration-300 leading-tight">Keyless</h3>
+                                    <p class="text-sm text-slate-400 leading-relaxed transition-all duration-300 flex-grow">No keys required! Start using Plutora immediately without any authentication hassles or waiting periods.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pop-in stagger-4">
+                            <div class="rounded-lg border text-card-foreground shadow-sm feature-card bg-slate-800/30 border-slate-700/50 backdrop-blur-sm cursor-pointer overflow-hidden relative transition-all duration-300 ease-out min-h-[200px] h-full" style="transform-style:preserve-3d">
+                                <div class="absolute inset-0 bg-gradient-to-br from-blue-500/10 via-purple-500/10 to-cyan-500/10 transition-opacity duration-300 pointer-events-none opacity-0"></div>
+                                <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent transition-transform duration-700 pointer-events-none -translate-x-full"></div>
+                                <div class="feature-card-content p-6 text-center relative z-10 h-full flex flex-col justify-center">
+                                    <div class="mb-4 flex justify-center">
+                                        <div class="p-3 bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-xl transition-all duration-300" style="transform:scale(1)">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield h-8 w-8 text-blue-400">
+                                                <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <h3 class="text-lg font-semibold mb-3 text-white transition-all duration-300 leading-tight">Internal</h3>
+                                    <p class="text-sm text-slate-400 leading-relaxed transition-all duration-300 flex-grow">Built with internal architecture for enhanced performance and reliability in script execution.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pop-in stagger-5">
+                            <div class="rounded-lg border text-card-foreground shadow-sm feature-card bg-slate-800/30 border-slate-700/50 backdrop-blur-sm cursor-pointer overflow-hidden relative transition-all duration-300 ease-out min-h-[200px] h-full" style="transform-style:preserve-3d">
+                                <div class="absolute inset-0 bg-gradient-to-br from-blue-500/10 via-purple-500/10 to-cyan-500/10 transition-opacity duration-300 pointer-events-none opacity-0"></div>
+                                <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent transition-transform duration-700 pointer-events-none -translate-x-full"></div>
+                                <div class="feature-card-content p-6 text-center relative z-10 h-full flex flex-col justify-center">
+                                    <div class="mb-4 flex justify-center">
+                                        <div class="p-3 bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-xl transition-all duration-300" style="transform:scale(1)">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code h-8 w-8 text-blue-400">
+                                                <polyline points="16 18 22 12 16 6"></polyline>
+                                                <polyline points="8 6 2 12 8 18"></polyline>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <h3 class="text-lg font-semibold mb-3 text-white transition-all duration-300 leading-tight">Nice Scripting Experience</h3>
+                                    <p class="text-sm text-slate-400 leading-relaxed transition-all duration-300 flex-grow">Smooth, responsive scripting environment with syntax highlighting and intelligent code completion.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pop-in stagger-6">
+                            <div class="rounded-lg border text-card-foreground shadow-sm feature-card bg-slate-800/30 border-slate-700/50 backdrop-blur-sm cursor-pointer overflow-hidden relative transition-all duration-300 ease-out min-h-[200px] h-full" style="transform-style:preserve-3d">
+                                <div class="absolute inset-0 bg-gradient-to-br from-blue-500/10 via-purple-500/10 to-cyan-500/10 transition-opacity duration-300 pointer-events-none opacity-0"></div>
+                                <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent transition-transform duration-700 pointer-events-none -translate-x-full"></div>
+                                <div class="feature-card-content p-6 text-center relative z-10 h-full flex flex-col justify-center">
+                                    <div class="mb-4 flex justify-center">
+                                        <div class="p-3 bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-xl transition-all duration-300" style="transform:scale(1)">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-feather h-8 w-8 text-blue-400">
+                                                <path d="M12.67 19a2 2 0 0 0 1.416-.588l6.154-6.172a6 6 0 0 0-8.49-8.49L5.586 9.914A2 2 0 0 0 5 11.328V18a1 1 0 0 0 1 1z"></path>
+                                                <path d="M16 8 2 22"></path>
+                                                <path d="M17.5 15H9"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <h3 class="text-lg font-semibold mb-3 text-white transition-all duration-300 leading-tight">Lightweight</h3>
+                                    <p class="text-sm text-slate-400 leading-relaxed transition-all duration-300 flex-grow">Minimal resource usage while maintaining maximum performance - won &#x27;t slow down your system.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pop-in stagger-7">
+                            <div class="rounded-lg border text-card-foreground shadow-sm feature-card bg-slate-800/30 border-slate-700/50 backdrop-blur-sm cursor-pointer overflow-hidden relative transition-all duration-300 ease-out min-h-[200px] h-full" style="transform-style:preserve-3d">
+                                <div class="absolute inset-0 bg-gradient-to-br from-blue-500/10 via-purple-500/10 to-cyan-500/10 transition-opacity duration-300 pointer-events-none opacity-0"></div>
+                                <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent transition-transform duration-700 pointer-events-none -translate-x-full"></div>
+                                <div class="feature-card-content p-6 text-center relative z-10 h-full flex flex-col justify-center">
+                                    <div class="mb-4 flex justify-center">
+                                        <div class="p-3 bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-xl transition-all duration-300" style="transform:scale(1)">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-eye h-8 w-8 text-blue-400">
+                                                <path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"></path>
+                                                <circle cx="12" cy="12" r="3"></circle>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <h3 class="text-lg font-semibold mb-3 text-white transition-all duration-300 leading-tight">Semi-Undetected Injection</h3>
+                                    <p class="text-sm text-slate-400 leading-relaxed transition-all duration-300 flex-grow">Advanced injection methods designed to minimize detection while maintaining full functionality.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pop-in stagger-8">
+                            <div class="rounded-lg border text-card-foreground shadow-sm feature-card bg-slate-800/30 border-slate-700/50 backdrop-blur-sm cursor-pointer overflow-hidden relative transition-all duration-300 ease-out min-h-[200px] h-full" style="transform-style:preserve-3d">
+                                <div class="absolute inset-0 bg-gradient-to-br from-blue-500/10 via-purple-500/10 to-cyan-500/10 transition-opacity duration-300 pointer-events-none opacity-0"></div>
+                                <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent transition-transform duration-700 pointer-events-none -translate-x-full"></div>
+                                <div class="feature-card-content p-6 text-center relative z-10 h-full flex flex-col justify-center">
+                                    <div class="mb-4 flex justify-center">
+                                        <div class="p-3 bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-xl transition-all duration-300" style="transform:scale(1)">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield h-8 w-8 text-blue-400">
+                                                <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <h3 class="text-lg font-semibold mb-3 text-white transition-all duration-300 leading-tight">Stable</h3>
+                                    <p class="text-sm text-slate-400 leading-relaxed transition-all duration-300 flex-grow">Rock-solid performance with minimal crashes and consistent execution across all Roblox games and updates.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="comparison" class="relative z-10 py-20 px-6">
+                <div class="max-w-6xl mx-auto">
+                    <div class="text-center mb-16 slide-up">
+                        <h2 class="text-3xl sm:text-4xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent animated-header">Comparisons</h2>
+                        <p class="text-lg sm:text-xl text-slate-300">See how Plutora stands above the competition</p>
+                    </div>
+                    <div class="bg-slate-800/30 backdrop-blur-sm rounded-2xl border border-slate-700/50 overflow-hidden scale-in">
+                        <div class="overflow-x-auto">
+                            <table class="w-full min-w-[600px]">
+                                <thead>
+                                    <tr class="border-b border-slate-700/50">
+                                        <th class="text-left p-4 sm:p-6 text-slate-300 font-medium">Features</th>
+                                        <th class="text-center p-4 sm:p-6">
+                                            <div class="inline-block px-3 sm:px-4 py-2 rounded-lg font-semibold text-sm sm:text-base bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-lg">Plutora</div>
+                                        </th>
+                                        <th class="text-center p-4 sm:p-6">
+                                            <div class="inline-block px-3 sm:px-4 py-2 rounded-lg font-semibold text-sm sm:text-base bg-slate-700/50 text-slate-300">Wave</div>
+                                        </th>
+                                        <th class="text-center p-4 sm:p-6">
+                                            <div class="inline-block px-3 sm:px-4 py-2 rounded-lg font-semibold text-sm sm:text-base bg-slate-700/50 text-slate-300">Xeno</div>
+                                        </th>
+                                        <th class="text-center p-4 sm:p-6">
+                                            <div class="inline-block px-3 sm:px-4 py-2 rounded-lg font-semibold text-sm sm:text-base bg-slate-700/50 text-slate-300">Solara</div>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="border-b border-slate-700/30 bg-slate-800/20 fade-in stagger-1">
+                                        <td class="p-4 sm:p-6 font-medium text-white text-sm sm:text-base">Keyless</td>
+                                        <td class="text-center p-4 sm:p-6">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-5 sm:h-6 w-5 sm:w-6 text-green-400 mx-auto">
+                                                <path d="M20 6 9 17l-5-5"></path>
+                                            </svg>
+                                        </td>
+                                        <td class="text-center p-4 sm:p-6">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x h-5 sm:h-6 w-5 sm:w-6 text-red-400 mx-auto">
+                                                <path d="M18 6 6 18"></path>
+                                                <path d="m6 6 12 12"></path>
+                                            </svg>
+                                        </td>
+                                        <td class="text-center p-4 sm:p-6">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-5 sm:h-6 w-5 sm:w-6 text-green-400 mx-auto">
+                                                <path d="M20 6 9 17l-5-5"></path>
+                                            </svg>
+                                        </td>
+                                        <td class="text-center p-4 sm:p-6">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-5 sm:h-6 w-5 sm:w-6 text-green-400 mx-auto">
+                                                <path d="M20 6 9 17l-5-5"></path>
+                                            </svg>
+                                        </td>
+                                    </tr>
+                                    <tr class="border-b border-slate-700/30  fade-in stagger-2">
+                                        <td class="p-4 sm:p-6 font-medium text-white text-sm sm:text-base">Free</td>
+                                        <td class="text-center p-4 sm:p-6">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-5 sm:h-6 w-5 sm:w-6 text-green-400 mx-auto">
+                                                <path d="M20 6 9 17l-5-5"></path>
+                                            </svg>
+                                        </td>
+                                        <td class="text-center p-4 sm:p-6">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x h-5 sm:h-6 w-5 sm:w-6 text-red-400 mx-auto">
+                                                <path d="M18 6 6 18"></path>
+                                                <path d="m6 6 12 12"></path>
+                                            </svg>
+                                        </td>
+                                        <td class="text-center p-4 sm:p-6">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-5 sm:h-6 w-5 sm:w-6 text-green-400 mx-auto">
+                                                <path d="M20 6 9 17l-5-5"></path>
+                                            </svg>
+                                        </td>
+                                        <td class="text-center p-4 sm:p-6">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-5 sm:h-6 w-5 sm:w-6 text-green-400 mx-auto">
+                                                <path d="M20 6 9 17l-5-5"></path>
+                                            </svg>
+                                        </td>
+                                    </tr>
+                                    <tr class="border-b border-slate-700/30 bg-slate-800/20 fade-in stagger-3">
+                                        <td class="p-4 sm:p-6 font-medium text-white text-sm sm:text-base">High Unc</td>
+                                        <td class="text-center p-4 sm:p-6">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-5 sm:h-6 w-5 sm:w-6 text-green-400 mx-auto">
+                                                <path d="M20 6 9 17l-5-5"></path>
+                                            </svg>
+                                        </td>
+                                        <td class="text-center p-4 sm:p-6">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-5 sm:h-6 w-5 sm:w-6 text-green-400 mx-auto">
+                                                <path d="M20 6 9 17l-5-5"></path>
+                                            </svg>
+                                        </td>
+                                        <td class="text-center p-4 sm:p-6">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x h-5 sm:h-6 w-5 sm:w-6 text-red-400 mx-auto">
+                                                <path d="M18 6 6 18"></path>
+                                                <path d="m6 6 12 12"></path>
+                                            </svg>
+                                        </td>
+                                        <td class="text-center p-4 sm:p-6">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x h-5 sm:h-6 w-5 sm:w-6 text-red-400 mx-auto">
+                                                <path d="M18 6 6 18"></path>
+                                                <path d="m6 6 12 12"></path>
+                                            </svg>
+                                        </td>
+                                    </tr>
+                                    <tr class="border-b border-slate-700/30  fade-in stagger-4">
+                                        <td class="p-4 sm:p-6 font-medium text-white text-sm sm:text-base">Stable</td>
+                                        <td class="text-center p-4 sm:p-6">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-5 sm:h-6 w-5 sm:w-6 text-green-400 mx-auto">
+                                                <path d="M20 6 9 17l-5-5"></path>
+                                            </svg>
+                                        </td>
+                                        <td class="text-center p-4 sm:p-6">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x h-5 sm:h-6 w-5 sm:w-6 text-red-400 mx-auto">
+                                                <path d="M18 6 6 18"></path>
+                                                <path d="m6 6 12 12"></path>
+                                            </svg>
+                                        </td>
+                                        <td class="text-center p-4 sm:p-6">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x h-5 sm:h-6 w-5 sm:w-6 text-red-400 mx-auto">
+                                                <path d="M18 6 6 18"></path>
+                                                <path d="m6 6 12 12"></path>
+                                            </svg>
+                                        </td>
+                                        <td class="text-center p-4 sm:p-6">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x h-5 sm:h-6 w-5 sm:w-6 text-red-400 mx-auto">
+                                                <path d="M18 6 6 18"></path>
+                                                <path d="m6 6 12 12"></path>
+                                            </svg>
+                                        </td>
+                                    </tr>
+                                    <tr class="border-b border-slate-700/30 bg-slate-800/20 fade-in stagger-5">
+                                        <td class="p-4 sm:p-6 font-medium text-white text-sm sm:text-base">Undetected</td>
+                                        <td class="text-center p-4 sm:p-6">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-5 sm:h-6 w-5 sm:w-6 text-green-400 mx-auto">
+                                                <path d="M20 6 9 17l-5-5"></path>
+                                            </svg>
+                                        </td>
+                                        <td class="text-center p-4 sm:p-6">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x h-5 sm:h-6 w-5 sm:w-6 text-red-400 mx-auto">
+                                                <path d="M18 6 6 18"></path>
+                                                <path d="m6 6 12 12"></path>
+                                            </svg>
+                                        </td>
+                                        <td class="text-center p-4 sm:p-6">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x h-5 sm:h-6 w-5 sm:w-6 text-red-400 mx-auto">
+                                                <path d="M18 6 6 18"></path>
+                                                <path d="m6 6 12 12"></path>
+                                            </svg>
+                                        </td>
+                                        <td class="text-center p-4 sm:p-6">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x h-5 sm:h-6 w-5 sm:w-6 text-red-400 mx-auto">
+                                                <path d="M18 6 6 18"></path>
+                                                <path d="m6 6 12 12"></path>
+                                            </svg>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="faq" class="relative z-10 py-20 px-6">
+                <div class="max-w-4xl mx-auto">
+                    <div class="text-center mb-16 slide-up">
+                        <h2 class="text-3xl sm:text-4xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent animated-header">Frequently Asked Questions</h2>
+                        <p class="text-lg sm:text-xl text-slate-300">Get answers to common questions about Plutora</p>
+                    </div>
+                    <div class="space-y-4">
+                        <div class="bg-slate-800/30 backdrop-blur-sm rounded-xl border border-slate-700/50 overflow-hidden faq-item pop-in stagger-1">
+                            <button class="w-full px-4 sm:px-6 py-4 text-left faq-question flex items-center justify-between hover:bg-slate-700/20 transition-all duration-300 touch-manipulation">
+                                <div class="flex items-center space-x-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-help h-4 sm:h-5 w-4 sm:w-5 text-blue-400 flex-shrink-0">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                                        <path d="M12 17h.01"></path>
+                                    </svg>
+                                    <span class="text-white font-medium text-sm sm:text-base">Is Plutora completely free to use?</span>
+                                </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-4 sm:h-5 w-4 sm:w-5 text-slate-400 faq-icon">
+                                    <path d="m6 9 6 6 6-6"></path>
+                                </svg>
+                            </button>
+                            <div class="px-4 sm:px-6 bg-slate-900/20 faq-answer ">
+                                <p class="text-slate-300 leading-relaxed text-sm sm:text-base">Yes! Plutora is 100% free with no hidden costs, premium tiers, or subscription fees. You get full access to all Level 8 execution features without any limitations.</p>
+                            </div>
+                        </div>
+                        <div class="bg-slate-800/30 backdrop-blur-sm rounded-xl border border-slate-700/50 overflow-hidden faq-item pop-in stagger-2">
+                            <button class="w-full px-4 sm:px-6 py-4 text-left faq-question flex items-center justify-between hover:bg-slate-700/20 transition-all duration-300 touch-manipulation">
+                                <div class="flex items-center space-x-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-help h-4 sm:h-5 w-4 sm:w-5 text-blue-400 flex-shrink-0">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                                        <path d="M12 17h.01"></path>
+                                    </svg>
+                                    <span class="text-white font-medium text-sm sm:text-base">Do I need a key or whitelist to use Plutora?</span>
+                                </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-4 sm:h-5 w-4 sm:w-5 text-slate-400 faq-icon">
+                                    <path d="m6 9 6 6 6-6"></path>
+                                </svg>
+                            </button>
+                            <div class="px-4 sm:px-6 bg-slate-900/20 faq-answer ">
+                                <p class="text-slate-300 leading-relaxed text-sm sm:text-base">No keys required! Plutora is completely keyless, meaning you can download and start using it immediately without any authentication process or waiting periods.</p>
+                            </div>
+                        </div>
+                        <div class="bg-slate-800/30 backdrop-blur-sm rounded-xl border border-slate-700/50 overflow-hidden faq-item pop-in stagger-3">
+                            <button class="w-full px-4 sm:px-6 py-4 text-left faq-question flex items-center justify-between hover:bg-slate-700/20 transition-all duration-300 touch-manipulation">
+                                <div class="flex items-center space-x-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-help h-4 sm:h-5 w-4 sm:w-5 text-blue-400 flex-shrink-0">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                                        <path d="M12 17h.01"></path>
+                                    </svg>
+                                    <span class="text-white font-medium text-sm sm:text-base">Is Plutora safe and undetected?</span>
+                                </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-4 sm:h-5 w-4 sm:w-5 text-slate-400 faq-icon">
+                                    <path d="m6 9 6 6 6-6"></path>
+                                </svg>
+                            </button>
+                            <div class="px-4 sm:px-6 bg-slate-900/20 faq-answer ">
+                                <p class="text-slate-300 leading-relaxed text-sm sm:text-base">Plutora uses advanced semi-undetected injection methods and internal architecture to minimize detection risks. However, as with any executor, use at your own discretion and follow Roblox &#x27;s terms of service.</p>
+                            </div>
+                        </div>
+                        <div class="bg-slate-800/30 backdrop-blur-sm rounded-xl border border-slate-700/50 overflow-hidden faq-item pop-in stagger-4">
+                            <button class="w-full px-4 sm:px-6 py-4 text-left faq-question flex items-center justify-between hover:bg-slate-700/20 transition-all duration-300 touch-manipulation">
+                                <div class="flex items-center space-x-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-help h-4 sm:h-5 w-4 sm:w-5 text-blue-400 flex-shrink-0">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                                        <path d="M12 17h.01"></path>
+                                    </svg>
+                                    <span class="text-white font-medium text-sm sm:text-base">What execution level does Plutora support?</span>
+                                </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-4 sm:h-5 w-4 sm:w-5 text-slate-400 faq-icon">
+                                    <path d="m6 9 6 6 6-6"></path>
+                                </svg>
+                            </button>
+                            <div class="px-4 sm:px-6 bg-slate-900/20 faq-answer ">
+                                <p class="text-slate-300 leading-relaxed text-sm sm:text-base">Plutora supports Level 8 execution, which means it can run the most advanced and complex scripts available, including those that require high-level game access and manipulation.</p>
+                            </div>
+                        </div>
+                        <div class="bg-slate-800/30 backdrop-blur-sm rounded-xl border border-slate-700/50 overflow-hidden faq-item pop-in stagger-5">
+                            <button class="w-full px-4 sm:px-6 py-4 text-left faq-question flex items-center justify-between hover:bg-slate-700/20 transition-all duration-300 touch-manipulation">
+                                <div class="flex items-center space-x-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-help h-4 sm:h-5 w-4 sm:w-5 text-blue-400 flex-shrink-0">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                                        <path d="M12 17h.01"></path>
+                                    </svg>
+                                    <span class="text-white font-medium text-sm sm:text-base">Will Plutora slow down my computer?</span>
+                                </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-4 sm:h-5 w-4 sm:w-5 text-slate-400 faq-icon">
+                                    <path d="m6 9 6 6 6-6"></path>
+                                </svg>
+                            </button>
+                            <div class="px-4 sm:px-6 bg-slate-900/20 faq-answer ">
+                                <p class="text-slate-300 leading-relaxed text-sm sm:text-base">No! Plutora is designed to be lightweight with minimal resource usage. It won &#x27;t impact your system performance and runs efficiently in the background.</p>
+                            </div>
+                        </div>
+                        <div class="bg-slate-800/30 backdrop-blur-sm rounded-xl border border-slate-700/50 overflow-hidden faq-item pop-in stagger-6">
+                            <button class="w-full px-4 sm:px-6 py-4 text-left faq-question flex items-center justify-between hover:bg-slate-700/20 transition-all duration-300 touch-manipulation">
+                                <div class="flex items-center space-x-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-help h-4 sm:h-5 w-4 sm:w-5 text-blue-400 flex-shrink-0">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                                        <path d="M12 17h.01"></path>
+                                    </svg>
+                                    <span class="text-white font-medium text-sm sm:text-base">How often is Plutora updated?</span>
+                                </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-4 sm:h-5 w-4 sm:w-5 text-slate-400 faq-icon">
+                                    <path d="m6 9 6 6 6-6"></path>
+                                </svg>
+                            </button>
+                            <div class="px-4 sm:px-6 bg-slate-900/20 faq-answer ">
+                                <p class="text-slate-300 leading-relaxed text-sm sm:text-base">Plutora receives regular updates to maintain compatibility with Roblox updates, improve stability, and add new features. Updates are automatic and seamless.</p>
+                            </div>
+                        </div>
+                        <div class="bg-slate-800/30 backdrop-blur-sm rounded-xl border border-slate-700/50 overflow-hidden faq-item pop-in stagger-7">
+                            <button class="w-full px-4 sm:px-6 py-4 text-left faq-question flex items-center justify-between hover:bg-slate-700/20 transition-all duration-300 touch-manipulation">
+                                <div class="flex items-center space-x-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-help h-4 sm:h-5 w-4 sm:w-5 text-blue-400 flex-shrink-0">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                                        <path d="M12 17h.01"></path>
+                                    </svg>
+                                    <span class="text-white font-medium text-sm sm:text-base">Can I use Plutora on any Roblox game?</span>
+                                </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-4 sm:h-5 w-4 sm:w-5 text-slate-400 faq-icon">
+                                    <path d="m6 9 6 6 6-6"></path>
+                                </svg>
+                            </button>
+                            <div class="px-4 sm:px-6 bg-slate-900/20 faq-answer ">
+                                <p class="text-slate-300 leading-relaxed text-sm sm:text-base">Yes! Plutora works across all Roblox games thanks to its Level 8 execution capabilities and stable internal architecture. Some games may have additional protections, but Plutora handles most scenarios effectively.</p>
+                            </div>
+                        </div>
+                        <div class="bg-slate-800/30 backdrop-blur-sm rounded-xl border border-slate-700/50 overflow-hidden faq-item pop-in stagger-8">
+                            <button class="w-full px-4 sm:px-6 py-4 text-left faq-question flex items-center justify-between hover:bg-slate-700/20 transition-all duration-300 touch-manipulation">
+                                <div class="flex items-center space-x-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-help h-4 sm:h-5 w-4 sm:w-5 text-blue-400 flex-shrink-0">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                                        <path d="M12 17h.01"></path>
+                                    </svg>
+                                    <span class="text-white font-medium text-sm sm:text-base">What if I encounter issues or need support?</span>
+                                </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-4 sm:h-5 w-4 sm:w-5 text-slate-400 faq-icon">
+                                    <path d="m6 9 6 6 6-6"></path>
+                                </svg>
+                            </button>
+                            <div class="px-4 sm:px-6 bg-slate-900/20 faq-answer ">
+                                <p class="text-slate-300 leading-relaxed text-sm sm:text-base">Our community provides excellent support through Discord and forums. Most common issues are resolved quickly, and our stable architecture minimizes problems.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer id="download" class="relative z-10 py-12 px-6 border-t border-slate-800/50 slide-up">
+                <div class="max-w-7xl mx-auto text-center">
+                    <div class="text-xl sm:text-2xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">Plutora</div>
+                    <p class="text-slate-400 text-sm sm:text-base">© 2025 Plutora. All rights reserved.</p>
+                </div>
+            </footer>
+        </div>
+        <script src="/_next/static/chunks/webpack-db0a529a99835594.js" async=""></script>
+        <script>
+            (self.__next_f = self.__next_f || []).push([0])
+        </script>
+        <script>
+            self.__next_f.push([1, "1:\"$Sreact.fragment\"\n2:I[7555,[],\"\"]\n3:I[1295,[],\"\"]\n4:I[894,[],\"ClientPageRoot\"]\n5:I[8985,[\"353\",\"static/chunks/353-a6781ffe5ecb91a9.js\",\"974\",\"static/chunks/app/page-dc47a320f4cc6655.js\"],\"default\"]\n8:I[9665,[],\"OutletBoundary\"]\nb:I[9665,[],\"ViewportBoundary\"]\nd:I[9665,[],\"MetadataBoundary\"]\nf:I[6614,[],\"\"]\n:HL[\"/_next/static/css/582c69fad58130fb.css\",\"style\"]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "0:{\"P\":null,\"b\":\"RI5hJab9-O4tDDSnt7skS\",\"p\":\"\",\"c\":[\"\",\"\"],\"i\":false,\"f\":[[[\"\",{\"children\":[\"__PAGE__\",{}]},\"$undefined\",\"$undefined\",true],[\"\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/582c69fad58130fb.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[\"$\",\"body\",null,{\"children\":[\"$\",\"$L2\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L3\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]}]]}],{\"children\":[\"__PAGE__\",[\"$\",\"$1\",\"c\",{\"children\":[[\"$\",\"$L4\",null,{\"Component\":\"$5\",\"searchParams\":{},\"params\":{},\"promises\":[\"$@6\",\"$@7\"]}],\"$undefined\",null,[\"$\",\"$L8\",null,{\"children\":[\"$L9\",\"$La\",null]}]]}],{},null,false]},null,false],[\"$\",\"$1\",\"h\",{\"children\":[null,[\"$\",\"$1\",\"Smtf4lRASKwsWsP8GF-Ru\",{\"children\":[[\"$\",\"$Lb\",null,{\"children\":\"$Lc\"}],null]}],[\"$\",\"$Ld\",null,{\"children\":\"$Le\"}]]}],false]],\"m\":\"$undefined\",\"G\":[\"$f\",\"$undefined\"],\"s\":false,\"S\":true}\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "6:{}\n7:{}\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "c:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"meta\",\"1\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]\n9:null\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "a:null\ne:[[\"$\",\"title\",\"0\",{\"children\":\"v0 App\"}],[\"$\",\"meta\",\"1\",{\"name\":\"description\",\"content\":\"Created with v0\"}],[\"$\",\"meta\",\"2\",{\"name\":\"generator\",\"content\":\"v0.dev\"}]]\n"])
+        </script>
     </body>
 </html>
